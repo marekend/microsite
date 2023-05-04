@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dasafaf</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><img src="https://cdn.freebiesupply.com/logos/large/2x/t-mobile-2-logo-black-and-white.png" alt=""></li>
+        </ul>
+        
+    </nav>
+
+    <header id="header">
+        <div class="intro">
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="intro-text">
+                  <h1>Data se slevou 50%!</h1>
+                  <p>Využíjte slevy a surfujte do aleluja</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="price-row">
+            <div class="price-col">
+            <p>5GB</p>
+            <h3>175Kč</h3>
+            <button>Koupit</button>
+        </div>
+        <div class="price-col">
+            <p>10GB</p>
+            <h3>275Kč</h3>
+            <button>Koupit</button>
+        </div>
+        <div class="price-col">
+            <p>30GB</p>
+            <h3>625Kč</h3>
+            <button>Koupit</button>
+        </div>
+    </div>
+</div>
+
+
+<style>
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background: linear-gradient(137.42deg, #dfd9dc 50%, #e20074 100%);
+    background-size: 300% 300%; 
+    animation: gradient 20s ease infinite;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.navbar
+{
+    text-align: center;
+    background-color: #e20074;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar li img
+{
+width: 15%;
+height: 15%;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+}
+
+
+
+.intro 
+{
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url('https://www.t-mobile.cz/dcpublic/roaming-bs-hero-image-02.jpg') center center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover
+}
+
+.intro .overlay 
+{
+	background: rgba(0,0,0,0.4);
+}
+
+.intro h1 
+{
+    font-family:'Courier New', Courier, monospace;
+	color: #fff;
+	font-size: 2.5em;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.intro p 
+{
+	color: #fff;
+	font-size: 36px;
+	font-weight: 400;
+	margin-top: 150px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header .intro-text 
+{
+	padding-top: 700px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.container
+{
+    width: 100%;
+}
+
+.price-row
+{
+    width: 90%;
+    max-width: calc(3 * 250px + 2 * 25px);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-gap: 25px;
+    justify-content: center;
+}
+
+.price-col
+{
+    background: #1f283b;
+    padding: 10% 10%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.price-col p
+{
+    font-size: 22px;
+}
+
+.price-col h3
+{
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+
+.price-col ul
+{
+    text-align: left;
+    margin: 20px 0;
+    color: #ddd;
+    list-style: none;
+    height: 8rem;
+}
+
+.price-col ul li
+{
+    margin: 15px 0;
+}
+
+.price-col ul li::before
+{
+    content: '\2022';
+    color: #e20074;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.price-col button
+{
+    width: 100%;
+    padding: 14px 0;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #e20074;
+    border-radius: 6px;
+    margin-top: auto;
+    cursor: pointer;
+    transition: background 0.5s
+
+}
+
+.price-col button:hover
+{
+    background-color: #e20074;
+}
+
+
+
+@keyframes gradient 
+{
+	0% 
+    {
+		background-position: 0% 50%;
+	}
+	50% 
+    {
+		background-position: 100% 50%;
+	}
+	100% 
+    {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+</style>
+</body>
+</html>
